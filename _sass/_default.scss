@@ -1,37 +1,92 @@
 // default-styling
 
+.inhoud {
+    margin-top: 0% !important;
+}
+
+.child {
+    border-radius: 25px;
+    padding: 2%;
+}
+.childFoto {
+    border-radius: 25px;
+    padding: 1%;
+}
+
 body {
-    font-family: $myfont-family-base;
-    font-weight: $font-weight-base;
-    font-size: $font-size-base;
-    line-height: $lineheight-base;
-    background-color: $body-bg;
-    color: $body-color;
+    font-family: 'Avenir';
+    font-size: 12pt;
+    color: #7c7c89;
+    margin-top: 0% !important;
+    background-color: #fdfcfc;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: $myfont-family-title;
-    font-weight: $font-weight-bold;
+    font-family: 'Capriola';
+}
+
+.trebuchet {
+    font-family: 'Trebuchet MS';
 }
 
 h1 {
     font-weight: $font-weight-light;
     font-size: 4rem;
-    color: $color-grey-2;
+    color:#f59c0f;
 }
 h2 {
     font-weight: $font-weight-light;
     font-size: 2rem;
     margin: 2rem 0 1rem;
+    color:#f9b34f;
 }
-h3, h4, h5, h6 {
+
+h3 {
+    font-weight: $font-weight-light;
+    font-size: 2rem;
+    margin: 2rem 0 1rem;
+    color:#80539b;
+}
+
+h4 {
+    font-weight: $font-weight-light;
     font-size: 1rem;
     margin: 2rem 0 0;
+    color: #f9b34f;
 }
+
+h5 {
+    font-weight: $font-weight-light;
+    font-size: 1rem;
+    margin: 2rem 0 0;
+    color: #80539b;
+
+}
+
+h6 {
+    font-weight: $font-weight-light;
+    font-size: 1rem;
+    margin: 2rem 0 0;
+    color: #f9b34f ;
+
+}
+
+table {
+    margin-top: 2%;
+    font-family: arial, sans-serif;
+    border-radius: 10px;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
 a {
     text-decoration: none;
     color: $body-link;
-    border-bottom: dotted 1px $body-link;
     &:hover{
         color: $body-link;
         text-decoration: none;
@@ -45,7 +100,7 @@ a {
 }
 blockquote {
     padding-left: 24px;
-    border-left: 2px solid $mycolor-5;
+    border-left: 2px solid  #80539b;
 }
 
 // ongeordende lijstjes met een ander symbool of kleur
@@ -58,7 +113,7 @@ main ul {
     text-indent: -25px;
     &:before {
         content:'\2022';
-        color: $mycolor-5;
+        color: #80539b;
         margin-right: 18px;
     }    
   }
@@ -80,21 +135,86 @@ main ol {
         padding: 3px 6px;
         margin-right: 5px;
         border-radius: 5px;
-        background-color: $mycolor-5;
-        color: $color-white;
+        background-color:#582b81;
+        color: #fdfcfc;
         font-family: $myfont-family-title;
         font-weight: $font-weight-bold;
       }    
     }
   }
 
+//tables
+
+th {
+    color: #80539b;
+}
+
 //forms 
-button, a.btn {
-    
-    &:hover{}
-    &:active{}
+.btn1 , a.btn {
+    margin: 0,5%;
+    margin-bottom: 1%;
+    padding: 1%;
+    border: none;
+    border-radius: 10px; /* Rounded corners */
+    background-color: #ff9e18;
+    color: #fdfcfc;
+
+    &:hover{ 
+        background-color: #f9b34f;
+        border: none;
+        border-radius: 10px; /* Rounded corners */
+    }
+    &:active{ 
+        background-color: #f59c0f;
+        border: none;
+        border-radius: 10px; /* Rounded corners */
+    }
     &:focus{}
 }
 input[type=text], textarea {
 
+}
+
+.btn2 {
+    margin: 0,5%;
+    margin-bottom: 1%;
+    padding: 1%;
+    border: none;
+    border-radius: 10px; /* Rounded corners */
+    background-color:  #59358b;
+    color: #fdfcfc;
+
+    &:hover{ 
+        background-color: #997db3;
+        border: none;
+        border-radius: 10px; /* Rounded corners */
+    }
+    &:active{ 
+        background-color: #59358b;
+        border: none;
+        border-radius: 10px; /* Rounded corners */
+    }
+    &:focus{}
+}
+
+.btn3 {
+    margin: 0,5%;
+    margin-bottom: 1%;
+    padding: 1%;
+    border: none;
+    border-radius: 10px; /* Rounded corners */
+    background-color:  #ec694a;
+    color: #fdfcfc;
+
+    &:hover{ 
+        background-color: #f18d76 ;
+        border: none;
+        border-radius: 10px; /* Rounded corners */
+    }
+    &:active{ 
+        background-color: #ec694a;
+        border: none;
+        border-radius: 10px; /* Rounded corners */
+    }
+    &:focus{}
 }

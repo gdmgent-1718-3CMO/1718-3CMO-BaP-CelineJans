@@ -1,9 +1,29 @@
 /* Navigation
 ---------------------------------------------
 */
+.navbar {
+  background-color: #c8c8d7;
+  border-radius: 0 0 15px 15px ;
+}
+
 .navbar a {
     border: none;
+    color:#fdfcfc;
+    &:hover {background-color: none;}
+    &:active {background-color: none;}
+    &:link {background-color: none;}
 }
+
+a:hover {
+  color: #fdfcfc !important;
+  text-decoration: none;
+  border-bottom: none !important 
+}
+a:active {
+  background-color: transparent !important;
+  color: lightslategray !important; 
+}
+
 
 /* FOOTER
 ----------------------------------------------
@@ -16,7 +36,6 @@ html {
 body {
     position: relative;
     margin: 0;
-    padding-bottom: 6rem;
     min-height: 100%;
   }
 
@@ -28,10 +47,11 @@ body {
 }
 
 footer {
-    background-color: $mycolor-2;
-    color: $color-white;
+    margin-top: 5%;
+    background-color: #f59c0f;
+    color:#fdfcfc;
     a {
-        color: $color-white;
+        color:#fdfcfc;
         &:hover {
             
         }
@@ -49,8 +69,8 @@ footer {
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
-  background-color:$mycolor-3; /* Set a background color */
-  color: white; /* Text color */
+  background-color: #582b81; /* Set a background color */
+  color: #fdfcfc; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   //padding: 15px; /* Some padding */
   width: 40px;
@@ -58,6 +78,6 @@ footer {
   border-radius: 20px; /* Rounded corners */
   font-size: 18px; /* Increase font size */
   &:hover {
-    background-color:$mycolor-5; 
+    background-color: #80539b; 
   }
 }
