@@ -6,11 +6,11 @@
 
 .child {
     border-radius: 25px;
-    padding: 2%;
+    padding-bottom: 1%;
 }
 .childFoto {
     border-radius: 25px;
-    padding: 1%;
+    padding-right: 1%;
 }
 
 body {
@@ -162,6 +162,7 @@ th {
     border-radius: 10px; /* Rounded corners */
     background-color: #ff9e18;
     color: #fdfcfc;
+    font-family: 'Capriola';
 
     &:hover{ 
         background-color: #f9b34f;
@@ -187,6 +188,7 @@ input[type=text], textarea {
     border-radius: 10px; /* Rounded corners */
     background-color:  #59358b;
     color: #fdfcfc;
+    font-family: 'Capriola';
 
     &:hover{ 
         background-color: #997db3;
@@ -209,6 +211,7 @@ input[type=text], textarea {
     border-radius: 10px; /* Rounded corners */
     background-color:  #ec694a;
     color: #fdfcfc;
+    font-family: 'Capriola';
 
     &:hover{ 
         background-color: #f18d76 ;
