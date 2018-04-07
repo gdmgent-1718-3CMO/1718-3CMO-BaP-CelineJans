@@ -107,6 +107,11 @@ blockquote {
     border-left: 2px solid  #80539b;
 }
 
+iframe {
+    width: 100%;
+    height: auto;
+}
+
 // ongeordende lijstjes met een ander symbool of kleur
 main ul {
   list-style: none;  
