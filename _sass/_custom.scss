@@ -2,20 +2,22 @@
 ---------------------------------------------
 */
 .navbar {
-  background-color: #c8c8d7;
+  background-color: #fdfcfc;
   border-radius: 0 0 15px 15px ;
 }
 
 .navbar a {
     border: none;
-    color:#fdfcfc;
+    color: #f59c0f ;
+    font-family: 'Capriola';
+    font-size: 10pt;
     &:hover {background-color: none;}
     &:active {background-color: none;}
     &:link {background-color: none;}
 }
 
 a:hover {
-  color: #fdfcfc !important;
+  color: #ec694a !important;
   text-decoration: none;
   border-bottom: none !important 
 }
@@ -69,7 +71,7 @@ footer {
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
-  background-color: #582b81; /* Set a background color */
+  background-color: #e96852; /* Set a background color */
   color: #fdfcfc; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
   //padding: 15px; /* Some padding */
@@ -78,6 +80,6 @@ footer {
   border-radius: 20px; /* Rounded corners */
   font-size: 18px; /* Increase font size */
   &:hover {
-    background-color: #80539b; 
+    background-color: #f18d76; 
   }
 }

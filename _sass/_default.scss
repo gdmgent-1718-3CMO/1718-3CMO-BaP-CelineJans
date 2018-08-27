@@ -1,7 +1,12 @@
 // default-styling
 
 .inhoud {
-    margin-top: 0% !important;
+    background-color: #fdfcfc;
+    border: none;
+    border-radius: 15px;
+    margin-top: 0%;
+    margin-right: 0%;
+    padding: 5% ;
 }
 
 .child {
@@ -22,7 +27,7 @@ body {
     font-size: 12pt;
     color: #7c7c89;
     margin-top: 0% !important;
-    background-color: #fdfcfc;
+    background-color:#80539b;
 }
 
 h1, h4, h5, {
@@ -166,7 +171,7 @@ th {
 .btn1 , a.btn {
     margin: 0,5%;
     margin-bottom: 1%;
-    padding: 1%;
+    padding: 3%;
     border: none;
     border-radius: 10px; /* Rounded corners */
     background-color: #ff9e18;
@@ -192,7 +197,7 @@ input[type=text], textarea {
 .btn2 {
     margin: 0,5%;
     margin-bottom: 1%;
-    padding: 1%;
+    padding: 3%;
     border: none;
     border-radius: 10px; /* Rounded corners */
     background-color:  #59358b;
@@ -215,7 +220,7 @@ input[type=text], textarea {
 .btn3 {
     margin: 0,5%;
     margin-bottom: 1%;
-    padding: 1%;
+    padding: 3%;
     border: none;
     border-radius: 10px; /* Rounded corners */
     background-color:  #ec694a;
