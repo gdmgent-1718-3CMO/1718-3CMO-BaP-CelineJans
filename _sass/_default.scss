@@ -35,42 +35,38 @@ h1, h4, h5, {
 }
 
 h2, h3 { 
-    font-family: 'Trebuchet MS';
-}
-
-.trebuchet {
-    font-family: 'Trebuchet MS';
+    font-family: 'Avenir';
 }
 
 h1 {
     font-weight: $font-weight-light;
-    font-size: 3.3rem;
+    font-size: 3em;
     color:#f59c0f;
 }
 h2 {
     font-weight: $font-weight-light;
-    font-size: 2rem;
+    font-size: 	2em;
     margin: 2rem 0 1rem;
     color:#f9b34f;
 }
 
 h3 {
     font-weight: $font-weight-light;
-    font-size: 2rem;
+    font-size: 	2em;
     margin: 2rem 0 1rem;
     color:#80539b;
 }
 
 h4 {
     font-weight: $font-weight-light;
-    font-size: 1rem;
+    font-size: 1.2em;
     margin: 2rem 0 0;
     color: #f9b34f;
 }
 
 h5 {
     font-weight: $font-weight-light;
-    font-size: 1rem;
+    font-size: 1.2em;
     margin: 2rem 0 0;
     color: #80539b;
 
@@ -78,7 +74,7 @@ h5 {
 
 h6 {
     font-weight: $font-weight-light;
-    font-size: 1rem;
+    font-size: 1em;
     margin: 2rem 0 0;
     color: #f9b34f ;
 
